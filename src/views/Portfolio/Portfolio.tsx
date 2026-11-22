@@ -4,7 +4,7 @@ import { Grid } from 'components/Grid';
 
 // Images/Background
 import Background from 'assets/portfolio/b4.webp';
-import OHSRankBackground from 'assets/portfolio/ohsrank.webp';
+import PrepRankBackground from 'assets/portfolio/ohsrank.webp';
 import StopSpotBackground from 'assets/portfolio/stopspot.webp';
 import IRCBackground from 'assets/portfolio/irc.webp';
 import BettingBackground from 'assets/portfolio/betting.webp';
@@ -15,20 +15,22 @@ import CarBackground from 'assets/portfolio/car.webp';
 import ReactIcon from 'assets/skills/react.png';
 import NodeIcon from 'assets/skills/node.png';
 import CSSIcon from 'assets/skills/css.png';
-import MongoIcon from 'assets/skills/mongodb.png';
-import ReduxIcon from 'assets/skills/redux.svg';
 import PythonIcon from 'assets/skills/python.svg';
 import DockerIcon from 'assets/skills/docker.png';
 import SQLIcon from 'assets/skills/sql.svg';
 import MLIcon from 'assets/skills/ml.svg';
+import TypeScriptIcon from 'assets/skills/typescript.svg';
+import NextIcon from 'assets/skills/nextjs.svg';
+import PostgresIcon from 'assets/skills/postgresql.svg';
+import CloudflareIcon from 'assets/skills/cloudflare.svg';
 
 const projects = [
   {
-    name: 'OHSRank',
-    description: 'Website provides predictions and statistics for Oregon High School sport teams.',
-    image: OHSRankBackground,
-    stack: [ReactIcon, NodeIcon, CSSIcon, MongoIcon, ReduxIcon],
-    linkTo: 'https://ohsrank.web.app/',
+    name: 'PrepRank',
+    description: 'Multi-state high school rankings, win probabilities and championship odds.',
+    image: PrepRankBackground,
+    stack: [TypeScriptIcon, NextIcon, ReactIcon, PostgresIcon, CloudflareIcon],
+    linkTo: 'https://demo.preprank.net',
   },
   {
     name: 'Stop Spot',
