@@ -92,20 +92,20 @@ const Skills = () => {
           </Grid>
           <SkillColumn
             background={WorkingSkills}
-            header="Working"
-            content="JavaScript / Python / C++ / React / HTML5"
+            header="Frontend"
+            content="TypeScript / Angular / RxJS / React / Next.js / Electron / HTML5 / SCSS"
             timeout={1500}
           />
           <SkillColumn
             background={OtherSkills}
-            header="Other"
-            content="MongoDB / SQL / NoSQL / Firebase / Bootstrap / CSS"
+            header="Backend"
+            content="Node.js / Express / NestJS / REST APIs / Bull / Python"
             timeout={1000}
           />
           <SkillColumn
             background={TouchedSkills}
-            header="Touched"
-            content="Java / C / SCSS"
+            header="Data & Cloud"
+            content="PostgreSQL / MySQL / Redis / Drizzle / Docker / AWS / GitHub Actions"
             timeout={500}
           />
         </Grid>
